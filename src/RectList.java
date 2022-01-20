@@ -17,7 +17,11 @@ public class RectList {
      */
     public void addRect(RectangleA r){
         RectNode _temp_h=_head;
-        while (_temp_h!=null){
+        if (_temp_h==null) {
+            _temp_h = new RectNode(r);
+            return;
+        }
+            while (_temp_h.getNext()!=null){
             if (_temp_h.getRect().equals(r))
                 return;
             _temp_h=_temp_h.getNext();
