@@ -20,10 +20,14 @@ public class RectNode {
      }
 
      public RectangleA getRect() {
+          if (this!=null)
           return new RectangleA(this._rect);
+          return null;
      }
      public RectNode getNext() {
-          return new RectNode(_next);
+          if (this!=null)
+          return _next;
+          return null;
      }
 
      public void setRect(RectangleA r) {

@@ -252,7 +252,7 @@ public class Maman15Tester
             System.out.println ("Your answer: " + list1.howManyWithPoint(sw4));
             System.out.println ("Correct: 0\n");
         }
-/*
+
 
         //Check longestDiagonal
         System.out.print ("--check longestDiagonal--");
@@ -322,7 +322,7 @@ public class Maman15Tester
         RectList list2 = new RectList ();
 
         //Check and toString
-        String s3 = "The list has 0 rectangles.";
+        String s3 = "The list has 0 rectangles.\n";
         String s4 = list2.toString();
         System.out.println ("**RectList test empty list**\n");
         System.out.print ("--Check toString--");
@@ -388,7 +388,7 @@ public class Maman15Tester
         }
         System.out.println ( "******" + j + "/23 TESTS PASSED******");
 
- */
+
     }
 }//mischief managed ¯\_(ツ)_/¯
 
